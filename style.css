@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background-color: black;
+  background-image: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzZsdzUydmpkdWNibTk0cnZ3N3J0NDI5OGJveWszOHR4NGV5eWllOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41Yp33GmBeDQy2f6/giphy.gif");
+  color: grey;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+  color:rgb(226, 108, 195);
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+h2{
+  color: pink;
+  font-weight: lighter;
+}
+
+#btn-yellow {
+  background-color: yellow;
+}
+
+.header {
+  background-color: rgb(102, 204, 170);
+  border-color: pink;
+  text-align: center;
+  border-radius: 80%;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.mitte {
+  border-radius: 30%;
+  background-color: black;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .header {
+    width: 700px;
+  }
+}
